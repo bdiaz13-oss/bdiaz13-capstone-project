@@ -1,0 +1,37 @@
+{
+    "config": {
+        "name": "Benjamin Diaz",
+        "course_number": "CIS 3020",
+        "course_description": "A continuation of CIS 2020.  This course emphasizes intermediate to advanced programming techniques in Python, focusing on data structures, file input/output, object-oriented programming, and algorithmic thinking. Students will explore topics such as list and dictionary manipulation, file handling, class design, inheritance, recursion, and modular programming. Key concepts include encapsulation, polymorphism, exception handling, and the use of modules to build scalable and maintainable Python applications.",
+        "profile_info": "As a senior undergraduate Business student at CSU Stanislaus, this site showcases my ability to construct varied web services using generative AI. This also serves as my final project for CIS 3020 Advanced Python.",
+        "linkedin": "https://www.linkedin.com/in/benjamin-diaz-csu/",
+        "theme": "darkly",
+        "profile_image": "/static/project_images/33bbce1f-9b5e-4d62-9270-07daf4712c87.jpeg"
+    },
+    "projects": [
+        {
+            "id": 1765832052859,
+            "image": "/static/project_images/203b3640-8450-49d4-9a12-deb066965414.jpeg",
+            "title": "Movie Recommendation Tracker",
+            "website_url": "https://movie-recommendation-tracker-1.onrender.com",
+            "github_url": "https://github.com/bdiaz13-oss/Movie-Recommendation-Tracker.git",
+            "description": "This Flask-based web application serves as a personal dashboard for tracking movie and TV show recommendations. Users can add, edit, view, and delete entries with details like title, rating, genres, watched date, platform, and reviews (supporting markdown). It features a responsive dashboard with paginated cards, genre management, search functionality, and visual elements like poster images and star ratings, all stored in a simple JSON file for easy persistence without a database.\n<br>\n<br>I developed this app with assistance from Generative AI (Grok by xAI), which generated the initial code structure, templates, and routes based on my prompts. AI also helped debug errors (JSON decoding, template not found, etc.), refine UX elements like form disclosures and field clarifications, and suggest improvements such as dynamic genre addition via JavaScript, ensuring a clean, deployable project."
+        },
+        {
+            "id": 1765832145500,
+            "image": "/static/project_images/ec42cce3-9f80-40b8-bc88-2d342f6aac0c.jpeg",
+            "title": "Payroll App",
+            "website_url": "https://payroll-app-r6b9.onrender.com",
+            "github_url": "https://github.com/bdiaz13-oss/Payroll-App.git",
+            "description": "This Flask-based web application serves as a personal tool for managing payroll records and tracking digital expenses or hours worked. As a user, I can add, edit, view, and delete employee details like names and pay rates, along with pay records including hours logged, overtime, deductions, automated gross/net pay calculations, and notes. It offers features like a dashboard with paginated cards, date-based filtering, search by name or period, and CSV export for easy reporting, all stored in a JSON file without needing a database, with a responsive Bootstrap interface for seamless use on any device.\n<br>\n<br>I developed this app with assistance from Generative AI (Grok by xAI), which generated the initial code structure, forms, routes, and logic based on my prompts. The AI also helped debug errors (e.g., JSON decoding, ValueError in exports), refine features like pay formatting to two decimals and form clarifications (e.g., no $ signs in inputs), and incorporate updates such as overtime handling and CSV exports, creating a functional, deployable project."
+        },
+        {
+            "id": 1765832227923,
+            "image": "/static/project_images/d9fda449-3808-457c-a2c2-2f38fa940987.jpeg",
+            "title": "Digital Evidence Chain of Custody Tracker",
+            "website_url": "https://digital-evidence-chain-of-custody-tracker-u2xt.onrender.com",
+            "github_url": "https://github.com/bdiaz13-oss/Digital-Evidence-Chain-of-Custody-Tracker.git",
+            "description": "As a student building this Digital Evidence Chain-of-Custody Tracker, I'm using AI tools to help write and refactor this small Flask app. It logs evidence intake, transfers, verifications, and edits, and provides export features (CSV/PDF) for reporting.\n<br>\n<br>This project is a hands-on learning exercise in web development, secure data handling, and deployment. The AI-assisted workflow helped me iterate quickly while I learned how to integrate forms, storage, and export utilities."
+        }
+    ]
+}
