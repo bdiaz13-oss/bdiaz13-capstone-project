@@ -230,6 +230,10 @@ def add_project():
         raw_description = raw_description.replace('\n', '<br>')
         safe_description = clean_description(raw_description)
 
+
+        # Work in Progress status
+        work_in_progress = bool(request.form.get('work_in_progress'))
+
         # Validation
         if not title:
             flash('Title is required!', 'danger')
@@ -246,7 +250,8 @@ def add_project():
                 "title": title,
                 "website_url": website_url,
                 "github_url": github_url,
-                "description": safe_description
+                "description": safe_description,
+                "work_in_progress": work_in_progress
             }
             data['projects'].append(project)
             save_data(data)
@@ -330,6 +335,14 @@ def delete_project(project_id):
     save_data(data)
     flash('Project deleted!', 'success')
     return redirect(url_for('index'))
+
+
+# --------------------- WORKS IN PROGRESS PAGE ---------------------
+@app.route('/works-in-progress')
+def works_in_progress():
+    data = load_data()
+    wip_projects = [p for p in data.get('projects', []) if p.get('work_in_progress')]
+    return render_template('works_in_progress.html', projects=wip_projects)
 
 if __name__ == '__main__':
     app.run(debug=True)

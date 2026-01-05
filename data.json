@@ -32,6 +32,15 @@
             "website_url": "https://digital-evidence-chain-of-custody-tracker-u2xt.onrender.com",
             "github_url": "https://github.com/bdiaz13-oss/Digital-Evidence-Chain-of-Custody-Tracker.git",
             "description": "As a student building this Digital Evidence Chain-of-Custody Tracker, I'm using AI tools to help write and refactor this small Flask app. It logs evidence intake, transfers, verifications, and edits, and provides export features (CSV/PDF) for reporting.\n<br>\n<br>This project is a hands-on learning exercise in web development, secure data handling, and deployment. The AI-assisted workflow helped me iterate quickly while I learned how to integrate forms, storage, and export utilities."
+        },
+        {
+            "id": 1767306695099,
+            "image": "/static/project_images/c5a2b6fc-9765-438e-bf66-9ef09aa22910.jpeg",
+            "title": "Sergio Diaz Custom Painting",
+            "website_url": "https://sergio-diaz-custom-painting-v2.onrender.com",
+            "github_url": "https://github.com/bdiaz13-oss/Sergio-Diaz-Custom-Painting-V2.git",
+            "description": "Work In Progress for my dad's small business. He gets nearly all his work through referrals, which this app will help serve by enabling customer referrals to be quantified and made accessible online. Plus, a valid referral code gives a discount. Also allows for new customers to apply for work online, including the paperwork.",
+            "work_in_progress": true
         }
     ]
 }
